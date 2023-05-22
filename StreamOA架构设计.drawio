@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-22T07:16:04.004Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="QEHsmJub0kZT3oour5gx" version="21.3.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-05-22T07:18:32.848Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="fDkd9OyKUhw-Q8YtciO0" version="21.3.2" type="github" pages="3">
   <diagram name="基础" id="sG3oPgEz_aeOG0XMmGw-">
     <mxGraphModel dx="1379" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -582,7 +582,7 @@
         <mxCell id="cDGvFpnGjdWu9BVZbmDT-31" value="TimeScale" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="405" y="740" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="PuJjHF7cxQozrRA-gUa8-1" value="1、只做业务透传，不定义任何业务相关接口&lt;br&gt;2、http server 完成协议转换" style="text;strokeColor=#B9E0A5;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#67AB9F;dashed=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="PuJjHF7cxQozrRA-gUa8-1" value="1、只做业务透传，不定义任何业务相关接口；&lt;br&gt;2、http server 完成协议转换；" style="text;strokeColor=#B9E0A5;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#67AB9F;dashed=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="580" y="319" width="140" height="91" as="geometry" />
         </mxCell>
         <mxCell id="PuJjHF7cxQozrRA-gUa8-2" value="1、定义并实现所有与之相关的业务接口；&lt;br&gt;2、数据“原进原出”；&lt;br&gt;3、不相互调用；" style="text;strokeColor=#B9E0A5;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#67AB9F;dashed=1;strokeWidth=2;" vertex="1" parent="1">
