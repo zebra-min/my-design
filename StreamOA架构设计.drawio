@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-22T03:03:18.212Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="RABKqxDBIc1R9OxPb8u0" version="21.3.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-05-22T03:11:12.967Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="TyNHQT-SXh4sdUC6QU_o" version="21.3.2" type="github" pages="4">
   <diagram name="基础" id="sG3oPgEz_aeOG0XMmGw-">
     <mxGraphModel dx="1379" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -413,6 +413,9 @@
         <mxCell id="qdCPJR4MWAgjKE7a7C7J-12" value="接收线程（协程）&lt;br&gt;&lt;br&gt;1、接收响应数据；&lt;br&gt;2、解码、反序列化；&lt;br&gt;3、将响应1对象放入接收队列；&lt;br&gt;4、V(s1001)；&lt;font color=&quot;#007fff&quot;&gt;唤醒&lt;/font&gt;&lt;br&gt;5、重复以上步骤；" style="text;strokeColor=default;align=left;fillColor=none;html=1;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="359" y="1169" width="170" height="141" as="geometry" />
         </mxCell>
+        <mxCell id="KnQkdB_HISd1_6mfXrGo-1" value="&lt;p style=&quot;box-sizing: border-box; outline: 0px; margin: 0px; padding: 0px; overflow: auto hidden; line-height: 26px; overflow-wrap: break-word;&quot;&gt;&lt;font face=&quot;-apple-system, SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif, SimHei, SimSun&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 14px;&quot;&gt;信号量&lt;/font&gt;&lt;/b&gt;&lt;font color=&quot;#4f4f4f&quot;&gt;是最早出现的用来解决进程同步与互斥问题的机制。&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; outline: 0px; margin: 0px; padding: 0px; overflow: auto hidden; line-height: 26px; overflow-wrap: break-word;&quot;&gt;&lt;font face=&quot;-apple-system, SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif, SimHei, SimSun&quot; color=&quot;#4f4f4f&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;信号量（Saphore）由一个值和一个指针组成，指针指向等待该信号量的进程，信号量的值表示相应资源的使用情况。&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; outline: 0px; margin: 0px; padding: 0px; overflow: auto hidden; line-height: 26px; overflow-wrap: break-word;&quot;&gt;&lt;font face=&quot;-apple-system, SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif, SimHei, SimSun&quot; color=&quot;#4f4f4f&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;信号量 S&amp;gt;=0 时，S 表示可用资源的数量，执行一次&lt;/span&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;P操作&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;意味着请求分配一个资源，因此 S 的值减 1 ；&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; outline: 0px; margin: 0px; padding: 0px; overflow: auto hidden; line-height: 26px; overflow-wrap: break-word;&quot;&gt;&lt;font face=&quot;-apple-system, SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif, SimHei, SimSun&quot; color=&quot;#4f4f4f&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;信号量 S&amp;lt;0 时，表示已经没有可用资源，S 的绝对值表示当前等待该资源的进程数，请求者必须等待其他进程释放该类资源才能继续运行，而执行一个&lt;/span&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;V操作&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;意味着释放一个资源，因此 S 的值加 1 ；&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; outline: 0px; margin: 0px; padding: 0px; overflow: auto hidden; line-height: 26px; overflow-wrap: break-word;&quot;&gt;&lt;font face=&quot;-apple-system, SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif, SimHei, SimSun&quot; color=&quot;#4f4f4f&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;若 S&amp;lt;0 ，表示有某些进程正在等待该资源，因此要唤醒一个等待状态的进程，使之运行下去。&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;box-sizing: border-box; outline: 0px; margin: 0px; padding: 0px; overflow: auto hidden; line-height: 26px; overflow-wrap: break-word;&quot;&gt;&lt;font face=&quot;-apple-system, SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif, SimHei, SimSun&quot; color=&quot;#4f4f4f&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;注意，信号量的值只能通过&lt;/span&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;PV操作&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;来改变。&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="text;strokeColor=default;align=left;fillColor=none;html=1;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1350" width="500" height="300" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -421,6 +424,15 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="895-rOBRhw8g5rwikE89-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="895-rOBRhw8g5rwikE89-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="895-rOBRhw8g5rwikE89-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
