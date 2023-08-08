@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-08T03:31:46.562Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="g2gXBj4xFcxvOefEn_7-" version="21.5.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-08-08T08:22:37.726Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="ZE1sqay7M7wsMjJHsvPS" version="21.5.0" type="github" pages="4">
   <diagram name="基础" id="sG3oPgEz_aeOG0XMmGw-">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -593,65 +593,6 @@
         </mxCell>
         <mxCell id="PuJjHF7cxQozrRA-gUa8-6" value="Proto3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="191" y="289" width="60" height="30" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="vg6F5DoxK79cXCLET0a8" name="即时通讯架构图">
-    <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="YU35Ghg319HSxt_eqybZ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YU35Ghg319HSxt_eqybZ-1" target="YU35Ghg319HSxt_eqybZ-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lYnNe7rqYqkbfF7Qdkg9-5" value="发送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YU35Ghg319HSxt_eqybZ-3">
-          <mxGeometry x="0.25" y="1" relative="1" as="geometry">
-            <mxPoint y="-10" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YU35Ghg319HSxt_eqybZ-1" value="客户端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="100" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YU35Ghg319HSxt_eqybZ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YU35Ghg319HSxt_eqybZ-2" target="YU35Ghg319HSxt_eqybZ-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lYnNe7rqYqkbfF7Qdkg9-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="YU35Ghg319HSxt_eqybZ-2" target="YU35Ghg319HSxt_eqybZ-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lYnNe7rqYqkbfF7Qdkg9-6" value="接受" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lYnNe7rqYqkbfF7Qdkg9-3">
-          <mxGeometry x="-0.25" y="-2" relative="1" as="geometry">
-            <mxPoint x="-2" y="-10" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YU35Ghg319HSxt_eqybZ-2" value="网关" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="240" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YU35Ghg319HSxt_eqybZ-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YU35Ghg319HSxt_eqybZ-4" target="YU35Ghg319HSxt_eqybZ-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="YU35Ghg319HSxt_eqybZ-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YU35Ghg319HSxt_eqybZ-4" target="YU35Ghg319HSxt_eqybZ-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="YU35Ghg319HSxt_eqybZ-4" value="消息路由" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="380" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YU35Ghg319HSxt_eqybZ-6" value="消息持久化" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="520" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lYnNe7rqYqkbfF7Qdkg9-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YU35Ghg319HSxt_eqybZ-8" target="YU35Ghg319HSxt_eqybZ-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lYnNe7rqYqkbfF7Qdkg9-2" value="topic" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lYnNe7rqYqkbfF7Qdkg9-1">
-          <mxGeometry x="-0.048" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YU35Ghg319HSxt_eqybZ-8" value="RocketMQ" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="380" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lYnNe7rqYqkbfF7Qdkg9-8" value="问题：&lt;br&gt;1、网关是无状态的，怎么让用户与网关形成稳定映射？&lt;br&gt;2、网关与topic 怎么映射？&lt;br&gt;3、消息路由服务如何精准投递消息？&lt;br&gt;4、如何保证消息至少投递一次？&lt;br&gt;5、多设备同时登录，进度同步问题。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="510" y="70" width="330" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
