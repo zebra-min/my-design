@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-25T12:26:17.564Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="H-rrJmu140KrpfGAfdwj" version="21.6.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-25T12:55:18.689Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="D5nc2rhUMVMdn_NL5vyl" version="21.6.6" type="github" pages="2">
   <diagram name="第 1 页" id="lN5wvPdrlScL4VwBc2p3">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -156,6 +156,21 @@
         </mxCell>
         <mxCell id="G0wD3ngTp5WuFTANtmBW-12" value="Tips&lt;br&gt;&lt;br&gt;V2ray&lt;br&gt;&amp;nbsp; 1、VMess&lt;br&gt;&amp;nbsp; 2、Sock5&lt;br&gt;&amp;nbsp; 3、Shadowsocks&lt;br&gt;&lt;br&gt;SSR&lt;br&gt;&amp;nbsp; ShadowsocksR" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="400" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="G0wD3ngTp5WuFTANtmBW-13" value="网络层（TCP/IP）(OpenVPN/IPSec)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="600" y="633" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="G0wD3ngTp5WuFTANtmBW-14" value="传输层（TCP/UDP）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="600" y="604" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="G0wD3ngTp5WuFTANtmBW-15" value="应用层（VMess/Sock5/ss/ssr）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="600" y="575" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="G0wD3ngTp5WuFTANtmBW-16" value="数据链路层（PPTP/L2TP）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="600" y="661" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="G0wD3ngTp5WuFTANtmBW-17" value="物理层" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="600" y="690" width="260" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
