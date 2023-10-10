@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-10T07:55:03.880Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.47" etag="sx1odxCBijr9dKYhWn6m" version="21.7.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-10-10T07:56:19.443Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.47" etag="NPj_4umnQ3yjea-hQ3nk" version="21.7.4" type="github" pages="6">
   <diagram name="第 1 页" id="lN5wvPdrlScL4VwBc2p3">
     <mxGraphModel dx="1426" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -505,12 +505,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="1UPiz-nWsu0OU8RynZbq" name="第 6 页">
-    <mxGraphModel dx="2253" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2864" dy="1073" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="AU_8WhMd-F_hICjb1qQC-1" value="Core" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="120" y="100" width="100" height="840" as="geometry" />
+          <mxGeometry x="120" y="100" width="100" height="860" as="geometry" />
         </mxCell>
         <mxCell id="AU_8WhMd-F_hICjb1qQC-33" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="AU_8WhMd-F_hICjb1qQC-1">
           <mxGeometry x="45" y="490" width="10" height="20" as="geometry" />
@@ -550,10 +550,10 @@
           <mxGeometry x="45" y="560" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AU_8WhMd-F_hICjb1qQC-2" value="PayCore" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="310" y="100" width="100" height="840" as="geometry" />
+          <mxGeometry x="310" y="100" width="100" height="860" as="geometry" />
         </mxCell>
         <mxCell id="AU_8WhMd-F_hICjb1qQC-3" value="Web" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="-50" y="100" width="100" height="840" as="geometry" />
+          <mxGeometry x="-50" y="100" width="100" height="860" as="geometry" />
         </mxCell>
         <mxCell id="AU_8WhMd-F_hICjb1qQC-14" value="1、创建订单" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -595,7 +595,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AU_8WhMd-F_hICjb1qQC-23" value="第三方支付" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="-220" y="100" width="100" height="830" as="geometry" />
+          <mxGeometry x="-220" y="100" width="100" height="860" as="geometry" />
         </mxCell>
         <mxCell id="AU_8WhMd-F_hICjb1qQC-24" value="7、支付" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="AU_8WhMd-F_hICjb1qQC-23">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -629,7 +629,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AU_8WhMd-F_hICjb1qQC-46" value="Redis" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="490" y="100" width="100" height="840" as="geometry" />
+          <mxGeometry x="490" y="100" width="100" height="860" as="geometry" />
         </mxCell>
         <mxCell id="AU_8WhMd-F_hICjb1qQC-47" value="10、xadd:订单付款事件" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="AU_8WhMd-F_hICjb1qQC-46">
           <mxGeometry x="0.3532" width="80" relative="1" as="geometry">
