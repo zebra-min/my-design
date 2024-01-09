@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-09T03:20:54.965Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="Z2QXt0bg1s28hBhxyFsW" version="22.1.16" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-01-09T09:11:20.314Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="IIf4JIS1bp7QQMOYEQMq" version="22.1.16" type="github" pages="2">
   <diagram name="第一层" id="C9TRYFHkkzXBIoLnPeZv">
     <mxGraphModel dx="1426" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -112,13 +112,19 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="LupQowgUyCEycN6CZihh-29" value="MPN" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="80" y="530" width="340" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="LupQowgUyCEycN6CZihh-39" value="workers" style="rounded=0;whiteSpace=wrap;html=1;horizontal=1;align=right;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="315" y="535" width="90" height="155" as="geometry" />
+        </mxCell>
         <mxCell id="LupQowgUyCEycN6CZihh-1" value="Antboy" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=bottom;" vertex="1" parent="1">
           <mxGeometry x="80" y="90" width="340" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="LupQowgUyCEycN6CZihh-2" value="MasClient" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LupQowgUyCEycN6CZihh-2" value="MasRpcCli" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="100" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LupQowgUyCEycN6CZihh-3" value="JobManager" style="rounded=0;whiteSpace=wrap;html=1;horizontal=1;align=right;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="LupQowgUyCEycN6CZihh-3" value="JobMgr" style="rounded=0;whiteSpace=wrap;html=1;horizontal=1;align=right;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="100" y="140" width="90" height="70" as="geometry" />
         </mxCell>
         <mxCell id="LupQowgUyCEycN6CZihh-4" value="Downloader" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -134,7 +140,7 @@
           <mxGeometry x="205" y="180" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LupQowgUyCEycN6CZihh-9" value="Pipeline" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="180" width="70" height="30" as="geometry" />
+          <mxGeometry x="100" y="190" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LupQowgUyCEycN6CZihh-10" value="Confiig" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="140" width="90" height="30" as="geometry" />
@@ -143,31 +149,85 @@
           <mxGeometry x="310" y="180" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LupQowgUyCEycN6CZihh-12" value="Master" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=bottom;" vertex="1" parent="1">
-          <mxGeometry x="80" y="310" width="350" height="150" as="geometry" />
+          <mxGeometry x="80" y="310" width="340" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="LupQowgUyCEycN6CZihh-13" value="MasServer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="320" width="90" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="LupQowgUyCEycN6CZihh-20" value="Confiig" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="400" width="90" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="LupQowgUyCEycN6CZihh-22" value="MpnClient" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="360" width="90" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="LupQowgUyCEycN6CZihh-23" value="Nacos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LupQowgUyCEycN6CZihh-13" value="MasRpcSvr" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="205" y="320" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LupQowgUyCEycN6CZihh-24" value="HttpServer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="204" y="360" width="90" height="30" as="geometry" />
+        <mxCell id="LupQowgUyCEycN6CZihh-20" value="Confiig" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="360" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LupQowgUyCEycN6CZihh-25" value="VmManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LupQowgUyCEycN6CZihh-22" value="MpnRpcCli" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="360" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LupQowgUyCEycN6CZihh-23" value="NacosCli" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="320" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LupQowgUyCEycN6CZihh-24" value="HttpSvr" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="400" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LupQowgUyCEycN6CZihh-25" value="VmMgr" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="204" y="400" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LupQowgUyCEycN6CZihh-26" value="TaskManager" style="rounded=0;whiteSpace=wrap;html=1;horizontal=1;align=right;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="LupQowgUyCEycN6CZihh-26" value="SubTaskMgr" style="rounded=0;whiteSpace=wrap;html=1;horizontal=1;align=right;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="310" y="360" width="90" height="70" as="geometry" />
         </mxCell>
         <mxCell id="LupQowgUyCEycN6CZihh-28" value="PriorityQue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="400" width="70" height="30" as="geometry" />
+          <mxGeometry x="310" y="410" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LupQowgUyCEycN6CZihh-30" value="Pipeline" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="620" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LupQowgUyCEycN6CZihh-31" value="Confiig" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="580" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LupQowgUyCEycN6CZihh-32" value="Downloader" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="570" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LupQowgUyCEycN6CZihh-33" value="NacosCli" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="540" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LupQowgUyCEycN6CZihh-34" value="HttpServer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="620" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LupQowgUyCEycN6CZihh-36" value="TaskMgr" style="rounded=0;whiteSpace=wrap;html=1;horizontal=1;align=right;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="204" y="540" width="96" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LupQowgUyCEycN6CZihh-35" value="TaskLife" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=right;" vertex="1" parent="1">
+          <mxGeometry x="204" y="580" width="86" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LupQowgUyCEycN6CZihh-37" value="MediaFiles" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="204" y="630" width="76" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LupQowgUyCEycN6CZihh-40" value="PreFilter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="590" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LupQowgUyCEycN6CZihh-41" value="ArgsMaker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="610" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axiUucMd5kzOGv7fkxZv-2" value="Combiner" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="630" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axiUucMd5kzOGv7fkxZv-4" value="TaskJob" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="170" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axiUucMd5kzOGv7fkxZv-5" value="SubTaskLife" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="204" y="610" width="76" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axiUucMd5kzOGv7fkxZv-6" value="BackFilter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="650" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axiUucMd5kzOGv7fkxZv-7" value="Uploader" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="670" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="axiUucMd5kzOGv7fkxZv-8" value="MpmsCli" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="660" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="axiUucMd5kzOGv7fkxZv-9" value="MasterCli" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="204" y="660" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="axiUucMd5kzOGv7fkxZv-10" value="SubTask" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="390" width="70" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
