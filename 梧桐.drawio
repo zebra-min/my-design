@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-10T08:08:41.279Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="K2-Ah8E8JB4Wii21Q0-q" version="22.1.17" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-01-10T08:14:03.853Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="_ea1YzJXGA6EdWzJZuP2" version="22.1.17" type="github" pages="2">
   <diagram name="第一层" id="C9TRYFHkkzXBIoLnPeZv">
     <mxGraphModel dx="1426" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -142,7 +142,7 @@
         <mxCell id="LupQowgUyCEycN6CZihh-7" value="Runner" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="565" y="370" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LupQowgUyCEycN6CZihh-9" value="Pipeline" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="LupQowgUyCEycN6CZihh-9" value="Jobs" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="452" y="390" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LupQowgUyCEycN6CZihh-10" value="Confiig" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -196,7 +196,7 @@
         <mxCell id="axiUucMd5kzOGv7fkxZv-2" value="Combiner" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="275" y="320" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="axiUucMd5kzOGv7fkxZv-4" value="Job" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="axiUucMd5kzOGv7fkxZv-4" value="Pipeline" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="452" y="370" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="axiUucMd5kzOGv7fkxZv-5" value="SubTaskLife" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
