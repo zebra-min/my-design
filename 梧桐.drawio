@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-15T09:38:18.320Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="oPr4ffxweL5Npl9DtOnc" version="22.1.17" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-01-17T03:06:16.860Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="Bt7Yw8cVs3fN0cuhNhOu" version="22.1.17" type="github" pages="3">
   <diagram name="第一层" id="C9TRYFHkkzXBIoLnPeZv">
     <mxGraphModel dx="1426" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -261,6 +261,111 @@
         </mxCell>
         <mxCell id="xrKpV1nFxrNC7_VDxdPV-9" value="AntBoy" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="670" y="180" width="50" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="fhXMIbYGh4Jm7d5pEKw7" name="顺序图">
+    <mxGraphModel dx="1426" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jRH0VeDZNtskZWW1Puf4-5" value="MPMS&amp;nbsp;Core" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="140" y="210" width="80" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="jRH0VeDZNtskZWW1Puf4-6" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="30" y="210" width="20" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="jRH0VeDZNtskZWW1Puf4-7" value="MPMS&amp;nbsp;MQ" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="323.5" y="210" width="76.5" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="jRH0VeDZNtskZWW1Puf4-8" value="Detective" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="500" y="210" width="76.5" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="jRH0VeDZNtskZWW1Puf4-9" value="TaskAnalysis" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="680" y="210" width="76.5" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="iAkf0LrHtNglAnZE1eCJ-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="jRH0VeDZNtskZWW1Puf4-9">
+          <mxGeometry x="35" y="250" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iAkf0LrHtNglAnZE1eCJ-6" value="8：生成子任务" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="iAkf0LrHtNglAnZE1eCJ-5" parent="jRH0VeDZNtskZWW1Puf4-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="230" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="70" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4DkyPEXsEH176Svy6npW-1" value="PriorityQue" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="860" y="210" width="76.5" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="4DkyPEXsEH176Svy6npW-2" value="1:转码任务" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="jRH0VeDZNtskZWW1Puf4-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="39.5" y="290" as="sourcePoint" />
+            <mxPoint x="160" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4DkyPEXsEH176Svy6npW-3" value="2：通知探测" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="jRH0VeDZNtskZWW1Puf4-7">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="180" y="310" as="sourcePoint" />
+            <mxPoint x="260" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4DkyPEXsEH176Svy6npW-4" value="3：返回成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="jRH0VeDZNtskZWW1Puf4-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="340" as="sourcePoint" />
+            <mxPoint x="100" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4DkyPEXsEH176Svy6npW-5" value="4：读取探测通知" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="jRH0VeDZNtskZWW1Puf4-8">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="360" y="340" as="sourcePoint" />
+            <mxPoint x="440" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iAkf0LrHtNglAnZE1eCJ-1" value="6：通知调度" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="jRH0VeDZNtskZWW1Puf4-8" target="jRH0VeDZNtskZWW1Puf4-7">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="540" y="371" as="sourcePoint" />
+            <mxPoint x="361.25" y="371" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iAkf0LrHtNglAnZE1eCJ-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="535" y="360" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iAkf0LrHtNglAnZE1eCJ-3" value="5：探测源信息" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="iAkf0LrHtNglAnZE1eCJ-2" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="340" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="570" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iAkf0LrHtNglAnZE1eCJ-4" value="7：读取调度通知" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="jRH0VeDZNtskZWW1Puf4-9">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="360" y="440" as="sourcePoint" />
+            <mxPoint x="440" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iAkf0LrHtNglAnZE1eCJ-7" value="9：发布子任务到队列" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="4DkyPEXsEH176Svy6npW-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="720" y="520" as="sourcePoint" />
+            <mxPoint x="800" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iAkf0LrHtNglAnZE1eCJ-8" value="TaskStatus:未初始化" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="140" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iAkf0LrHtNglAnZE1eCJ-9" value="TaskStatus:已探测" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="496.5" y="140" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iAkf0LrHtNglAnZE1eCJ-10" value="TaskStatus:已初始化" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="140" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iAkf0LrHtNglAnZE1eCJ-11" value="TaskStatus:就绪" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="858.25" y="140" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
