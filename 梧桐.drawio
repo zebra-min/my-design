@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-17T03:40:07.668Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="yHofjMwvENtcjNhcYFRe" version="22.1.17" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-01-17T07:26:58.551Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="b-zQaayGVJwqbVkzfHYi" version="22.1.17" type="github" pages="3">
   <diagram name="第一层" id="C9TRYFHkkzXBIoLnPeZv">
     <mxGraphModel dx="1426" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -108,7 +108,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pSuu81LllHv4PN5bU0RK" name="第二层">
-    <mxGraphModel dx="1426" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="751" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -266,7 +266,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="fhXMIbYGh4Jm7d5pEKw7" name="顺序图">
-    <mxGraphModel dx="1426" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1826" dy="751" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -366,6 +366,66 @@
         </mxCell>
         <mxCell id="iAkf0LrHtNglAnZE1eCJ-11" value="TaskStatus:就绪" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="858.25" y="140" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bEK7GYJIvS46G0QIL3K2-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bEK7GYJIvS46G0QIL3K2-1" target="bEK7GYJIvS46G0QIL3K2-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bEK7GYJIvS46G0QIL3K2-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-64" y="719" width="71" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bEK7GYJIvS46G0QIL3K2-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bEK7GYJIvS46G0QIL3K2-2" target="bEK7GYJIvS46G0QIL3K2-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bEK7GYJIvS46G0QIL3K2-2" value="从Master获取VMs信息" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-86.75" y="915" width="120" height="39.5" as="geometry" />
+        </mxCell>
+        <mxCell id="bEK7GYJIvS46G0QIL3K2-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bEK7GYJIvS46G0QIL3K2-4" target="bEK7GYJIvS46G0QIL3K2-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bEK7GYJIvS46G0QIL3K2-4" value="选取负载最低的VM" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-86.75" y="1005" width="120" height="36.5" as="geometry" />
+        </mxCell>
+        <mxCell id="bEK7GYJIvS46G0QIL3K2-6" value="判断流水线是否满载" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-90.25" y="792" width="123.5" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="bEK7GYJIvS46G0QIL3K2-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bEK7GYJIvS46G0QIL3K2-6" target="bEK7GYJIvS46G0QIL3K2-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="73" y="912" as="sourcePoint" />
+            <mxPoint x="123" y="862" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bEK7GYJIvS46G0QIL3K2-9" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bEK7GYJIvS46G0QIL3K2-8">
+          <mxGeometry x="-0.3322" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bEK7GYJIvS46G0QIL3K2-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bEK7GYJIvS46G0QIL3K2-10" target="bEK7GYJIvS46G0QIL3K2-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-146" y="1111" />
+              <mxPoint x="-146" y="827" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bEK7GYJIvS46G0QIL3K2-10" value="从MPMS拉取适合VM的任务" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-86.75" y="1093" width="120" height="36.5" as="geometry" />
+        </mxCell>
+        <mxCell id="bEK7GYJIvS46G0QIL3K2-13" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="1174" width="71" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bEK7GYJIvS46G0QIL3K2-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bEK7GYJIvS46G0QIL3K2-6" target="bEK7GYJIvS46G0QIL3K2-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="88" y="827" />
+              <mxPoint x="88" y="1152" />
+              <mxPoint x="-24" y="1152" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="leHQj-s0RM5eeMcG2EE1-1" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bEK7GYJIvS46G0QIL3K2-14">
+          <mxGeometry x="-0.2025" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
