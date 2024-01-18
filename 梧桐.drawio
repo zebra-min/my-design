@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-17T08:59:44.083Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="dWbkQ23mOJCEeD2ag4FT" version="22.1.17" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-01-18T01:58:42.006Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="uu8_9bergoKLesrdT8K3" version="22.1.17" type="github" pages="3">
   <diagram name="第一层" id="C9TRYFHkkzXBIoLnPeZv">
     <mxGraphModel dx="1426" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -426,39 +426,6 @@
           <mxGeometry x="-0.2025" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="5qRGd8RVITDUqSsmBU_A-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5qRGd8RVITDUqSsmBU_A-1" target="5qRGd8RVITDUqSsmBU_A-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="5qRGd8RVITDUqSsmBU_A-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="389.5" y="725" width="71" height="44" as="geometry" />
-        </mxCell>
-        <mxCell id="5qRGd8RVITDUqSsmBU_A-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5qRGd8RVITDUqSsmBU_A-4" target="5qRGd8RVITDUqSsmBU_A-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="5qRGd8RVITDUqSsmBU_A-4" value="读取AbilityTest生成的配置" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="365" y="806.75" width="120" height="39.5" as="geometry" />
-        </mxCell>
-        <mxCell id="5qRGd8RVITDUqSsmBU_A-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5qRGd8RVITDUqSsmBU_A-6" target="5qRGd8RVITDUqSsmBU_A-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="5qRGd8RVITDUqSsmBU_A-6" value="启动GPU实例，启动CPU实例" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="365" y="902" width="120" height="39.5" as="geometry" />
-        </mxCell>
-        <mxCell id="5qRGd8RVITDUqSsmBU_A-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5qRGd8RVITDUqSsmBU_A-8" target="5qRGd8RVITDUqSsmBU_A-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="5qRGd8RVITDUqSsmBU_A-8" value="连接Master并注册" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="365" y="986" width="120" height="39.5" as="geometry" />
-        </mxCell>
-        <mxCell id="5qRGd8RVITDUqSsmBU_A-9" value="等待Master推送任务" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="365" y="1065" width="120" height="39.5" as="geometry" />
-        </mxCell>
-        <mxCell id="5qRGd8RVITDUqSsmBU_A-13" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="389.5" y="1140" width="71" height="44" as="geometry" />
-        </mxCell>
-        <mxCell id="5qRGd8RVITDUqSsmBU_A-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5qRGd8RVITDUqSsmBU_A-9" target="5qRGd8RVITDUqSsmBU_A-13">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
