@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-17T02:15:27.105Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="9pvU3mmjk53mqgaRK-mL" version="24.7.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-07-17T02:16:34.395Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="CwCZqCfQN264bJlclsfd" version="24.7.0" type="github" pages="4">
   <diagram name="基础" id="sG3oPgEz_aeOG0XMmGw-">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -601,11 +601,8 @@
         <mxCell id="2UcjxCT0r1IB4gilu2DK-58" value="消息存储" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="-268" y="241" width="80" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="2UcjxCT0r1IB4gilu2DK-59" value="语言通话" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="2UcjxCT0r1IB4gilu2DK-59" value="音视频通话" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="-268" y="321" width="80" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="2UcjxCT0r1IB4gilu2DK-60" value="视频通话" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="-356.5" y="361" width="80" height="35" as="geometry" />
         </mxCell>
         <mxCell id="2UcjxCT0r1IB4gilu2DK-61" value="STUN服务器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" parent="1" vertex="1">
           <mxGeometry x="-328.5" y="125" width="150" height="35" as="geometry" />
