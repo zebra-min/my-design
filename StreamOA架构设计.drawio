@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-17T02:13:50.186Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="Gh3y9SgZmJweriVnOjlN" version="24.6.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-07-17T02:15:27.105Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="9pvU3mmjk53mqgaRK-mL" version="24.7.0" type="github" pages="4">
   <diagram name="基础" id="sG3oPgEz_aeOG0XMmGw-">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -623,10 +623,10 @@
           <mxGeometry x="-671" y="538" width="68.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2UcjxCT0r1IB4gilu2DK-67" value="Ceph" style="ellipse;whiteSpace=wrap;html=1;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="-474.5" y="538" width="75" height="30" as="geometry" />
+          <mxGeometry x="-376.5" y="538" width="75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2UcjxCT0r1IB4gilu2DK-69" value="ScyllaDB" style="ellipse;whiteSpace=wrap;html=1;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="-367" y="538" width="68" height="30" as="geometry" />
+          <mxGeometry x="-474" y="538" width="68" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2UcjxCT0r1IB4gilu2DK-70" value="MongoDB" style="ellipse;whiteSpace=wrap;html=1;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-574" y="538" width="68" height="30" as="geometry" />
@@ -715,7 +715,7 @@
         <mxCell id="VhisvxLTA30tNeMVoMDy-25" value="持久层" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;horizontal=1;" parent="1" vertex="1">
           <mxGeometry x="-173" y="528" width="17" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="rjTry13RKGexu4JvweK1-1" value="Lucene" style="ellipse;whiteSpace=wrap;html=1;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="rjTry13RKGexu4JvweK1-1" value="Lucene" style="ellipse;whiteSpace=wrap;html=1;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-268" y="538" width="68" height="30" as="geometry" />
         </mxCell>
       </root>
