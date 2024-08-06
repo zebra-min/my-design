@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-30T03:05:37.377Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" etag="W_MLgk0j-2rmdDcGD5vD" version="24.7.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" version="24.7.6" pages="4">
   <diagram name="基础" id="sG3oPgEz_aeOG0XMmGw-">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -719,12 +719,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ouMvrFJ49cHym2ge6yBG" name="企业网盘">
-    <mxGraphModel dx="1426" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="S4AOM45DsoQVqMKIw3Na-3" value="文件上传过程时序图" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=bottom;" vertex="1" parent="1">
-          <mxGeometry x="20" y="585" width="520" height="385" as="geometry" />
+        <mxCell id="S4AOM45DsoQVqMKIw3Na-3" value="文件上传过程时序图" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=bottom;" parent="1" vertex="1">
+          <mxGeometry x="20" y="585" width="520" height="375" as="geometry" />
         </mxCell>
         <mxCell id="Ji1lS2MSzWn_5HCWSb-q-1" value="企业网盘架构图" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Helvetica;align=right;fontColor=#0000CC;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="40" y="180" width="310" height="310" as="geometry" />
@@ -838,7 +838,7 @@
           <mxGeometry x="60" y="345" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oHa5It7M1SQ4UNjtzAlP-1" value="前端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="46.25" y="620" width="67.5" height="330" as="geometry" />
+          <mxGeometry x="46.25" y="600" width="67.5" height="330" as="geometry" />
         </mxCell>
         <mxCell id="oHa5It7M1SQ4UNjtzAlP-14" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="oHa5It7M1SQ4UNjtzAlP-1" vertex="1">
           <mxGeometry x="28.75" y="130" width="10" height="40" as="geometry" />
@@ -847,7 +847,7 @@
           <mxGeometry x="28.75" y="210" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="oHa5It7M1SQ4UNjtzAlP-2" value="网盘服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="250" y="620" width="60" height="330" as="geometry" />
+          <mxGeometry x="250" y="600" width="60" height="330" as="geometry" />
         </mxCell>
         <mxCell id="oHa5It7M1SQ4UNjtzAlP-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="oHa5It7M1SQ4UNjtzAlP-2" vertex="1">
           <mxGeometry x="25" y="80" width="10" height="50" as="geometry" />
@@ -877,48 +877,48 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="oHa5It7M1SQ4UNjtzAlP-3" value="S3网关" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="450" y="620" width="60" height="330" as="geometry" />
+          <mxGeometry x="450" y="600" width="60" height="330" as="geometry" />
         </mxCell>
         <mxCell id="oHa5It7M1SQ4UNjtzAlP-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="oHa5It7M1SQ4UNjtzAlP-3" vertex="1">
           <mxGeometry x="25" y="170" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="oHa5It7M1SQ4UNjtzAlP-5" value="1、请求上传文件" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="1" source="oHa5It7M1SQ4UNjtzAlP-1" target="oHa5It7M1SQ4UNjtzAlP-2" edge="1">
           <mxGeometry width="60" relative="1" as="geometry">
-            <mxPoint x="130" y="750" as="sourcePoint" />
-            <mxPoint x="190" y="750" as="targetPoint" />
+            <mxPoint x="130" y="730" as="sourcePoint" />
+            <mxPoint x="190" y="730" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="190" y="700" />
+              <mxPoint x="190" y="680" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="oHa5It7M1SQ4UNjtzAlP-9" value="3、返回预签名上传链接" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" target="oHa5It7M1SQ4UNjtzAlP-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="270" y="750" as="sourcePoint" />
-            <mxPoint x="190" y="750" as="targetPoint" />
+            <mxPoint x="270" y="730" as="sourcePoint" />
+            <mxPoint x="190" y="730" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oHa5It7M1SQ4UNjtzAlP-10" value="4、上传文件" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="1" target="oHa5It7M1SQ4UNjtzAlP-3" edge="1">
           <mxGeometry width="60" relative="1" as="geometry">
-            <mxPoint x="80" y="790" as="sourcePoint" />
-            <mxPoint x="140" y="790" as="targetPoint" />
+            <mxPoint x="80" y="770" as="sourcePoint" />
+            <mxPoint x="140" y="770" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oHa5It7M1SQ4UNjtzAlP-13" value="5、返回上传文件结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" parent="1" source="oHa5It7M1SQ4UNjtzAlP-11" target="oHa5It7M1SQ4UNjtzAlP-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="480" y="830" as="sourcePoint" />
-            <mxPoint x="400" y="830" as="targetPoint" />
+            <mxPoint x="480" y="810" as="sourcePoint" />
+            <mxPoint x="400" y="810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oHa5It7M1SQ4UNjtzAlP-16" value="6、通知上传完成" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="1" target="oHa5It7M1SQ4UNjtzAlP-2" edge="1">
           <mxGeometry width="60" relative="1" as="geometry">
-            <mxPoint x="80" y="870" as="sourcePoint" />
-            <mxPoint x="140" y="870" as="targetPoint" />
+            <mxPoint x="80" y="850" as="sourcePoint" />
+            <mxPoint x="140" y="850" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oHa5It7M1SQ4UNjtzAlP-18" value="8、返回通知结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" target="oHa5It7M1SQ4UNjtzAlP-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="280" y="910" as="sourcePoint" />
-            <mxPoint x="200" y="910" as="targetPoint" />
+            <mxPoint x="280" y="890" as="sourcePoint" />
+            <mxPoint x="200" y="890" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
