@@ -478,7 +478,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="nT7xjilnGOorXL5T7dmI-4" value="技术栈架构图" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;verticalAlign=bottom;" vertex="1" parent="1">
+        <mxCell id="nT7xjilnGOorXL5T7dmI-4" value="技术栈图" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;verticalAlign=bottom;" vertex="1" parent="1">
           <mxGeometry x="-740" y="648" width="430" height="332" as="geometry" />
         </mxCell>
         <mxCell id="E3sSZKSfBFMUjRFFawf9-83" value="用户端" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
