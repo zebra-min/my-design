@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" version="24.7.16" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" version="24.7.17" pages="4">
   <diagram name="基础" id="sG3oPgEz_aeOG0XMmGw-">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -828,7 +828,7 @@
         <mxCell id="q1iLl034ji0xMC3sH9d_-1" value="目录文件管理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="60" y="275" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qaKHqPodjxUmqJK5VW1s-1" value="操作鉴权" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+        <mxCell id="qaKHqPodjxUmqJK5VW1s-1" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;鉴权&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="125" y="275" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qaKHqPodjxUmqJK5VW1s-2" value="操作日志" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
@@ -1011,15 +1011,15 @@
             <mxRectangle width="130" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mLaEgo3bJxY6riqac8vN-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="4Ri-o5ifA5v6LO326mvm-7">
+        <mxCell id="mLaEgo3bJxY6riqac8vN-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="4Ri-o5ifA5v6LO326mvm-7" vertex="1">
           <mxGeometry y="100" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="mLaEgo3bJxY6riqac8vN-3" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="mLaEgo3bJxY6riqac8vN-2">
+        <mxCell id="mLaEgo3bJxY6riqac8vN-3" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" parent="mLaEgo3bJxY6riqac8vN-2" vertex="1">
           <mxGeometry width="30" height="20" as="geometry">
             <mxRectangle width="30" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mLaEgo3bJxY6riqac8vN-4" value="仓库类型" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="mLaEgo3bJxY6riqac8vN-2">
+        <mxCell id="mLaEgo3bJxY6riqac8vN-4" value="仓库类型" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="mLaEgo3bJxY6riqac8vN-2" vertex="1">
           <mxGeometry x="30" width="130" height="20" as="geometry">
             <mxRectangle width="130" height="20" as="alternateBounds" />
           </mxGeometry>
