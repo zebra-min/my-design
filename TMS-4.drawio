@@ -99,6 +99,9 @@
         <mxCell id="KN5XP0ErrDVYvEGmghzp-8" value="TAS_Agent" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
           <mxGeometry x="700" y="580" width="90" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="KN5XP0ErrDVYvEGmghzp-17" value="TMS_Server：TMS后端服务。订单、SN的生成和管理&lt;div&gt;TMS_Burn：PC烧录客户端服务。生产线管理，及烧录状态记录&lt;/div&gt;&lt;div&gt;TAS_Sync：TAS数据同步服务。&lt;/div&gt;&lt;div&gt;TAS_Master：终端认证服务，主节点&lt;/div&gt;&lt;div&gt;TAS_Agent：终端认证服务，从节点&lt;/div&gt;&lt;div&gt;工厂烧录客户端：负责将SN发送给生产线上的STB&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="60" y="690" width="570" height="130" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
