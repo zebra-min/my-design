@@ -112,7 +112,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="LrQQy67O-DPwN8x1VYBs" name="第 2 页">
+  <diagram id="LrQQy67O-DPwN8x1VYBs" name="美生慧谷网络拓扑">
     <mxGraphModel dx="1426" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -157,10 +157,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JclzIWzvm695KFUCSF0w-17" value="笔记本" style="shape=mxgraph.cisco.computers_and_peripherals.upc;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="680" y="509" width="91" height="86" as="geometry" />
+          <mxGeometry x="680" y="511" width="91" height="81" as="geometry" />
         </mxCell>
         <mxCell id="JclzIWzvm695KFUCSF0w-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.68;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JclzIWzvm695KFUCSF0w-2" target="JclzIWzvm695KFUCSF0w-17">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="589" y="480" />
+              <mxPoint x="742" y="480" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
