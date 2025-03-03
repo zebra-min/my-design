@@ -120,20 +120,14 @@
         <mxCell id="JclzIWzvm695KFUCSF0w-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="JclzIWzvm695KFUCSF0w-1" target="JclzIWzvm695KFUCSF0w-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="pH8SFVSykcNUc-93mGKD-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="JclzIWzvm695KFUCSF0w-1" target="pH8SFVSykcNUc-93mGKD-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="JclzIWzvm695KFUCSF0w-1" value="光猫" style="shape=mxgraph.cisco.modems_and_phones.modem;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="375" y="240" width="77" height="27" as="geometry" />
         </mxCell>
         <mxCell id="JclzIWzvm695KFUCSF0w-2" value="无线路由器" style="shape=mxgraph.cisco.routers.wireless_router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="550" y="370" width="78" height="77" as="geometry" />
-        </mxCell>
-        <mxCell id="JclzIWzvm695KFUCSF0w-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="JclzIWzvm695KFUCSF0w-5" target="JclzIWzvm695KFUCSF0w-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="JclzIWzvm695KFUCSF0w-5" value="三层交换机" style="shape=mxgraph.cisco.switches.layer_3_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="290" y="370" width="64" height="64" as="geometry" />
-        </mxCell>
-        <mxCell id="JclzIWzvm695KFUCSF0w-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JclzIWzvm695KFUCSF0w-1" target="JclzIWzvm695KFUCSF0w-5">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JclzIWzvm695KFUCSF0w-7" value="PC" style="shape=mxgraph.cisco.computers_and_peripherals.pc;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="517" width="78" height="70" as="geometry" />
@@ -146,12 +140,6 @@
         </mxCell>
         <mxCell id="JclzIWzvm695KFUCSF0w-10" value="" style="shape=mxgraph.cisco.computers_and_peripherals.pc;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="570" y="517" width="78" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="JclzIWzvm695KFUCSF0w-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JclzIWzvm695KFUCSF0w-5" target="JclzIWzvm695KFUCSF0w-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="JclzIWzvm695KFUCSF0w-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JclzIWzvm695KFUCSF0w-5" target="JclzIWzvm695KFUCSF0w-8">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JclzIWzvm695KFUCSF0w-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JclzIWzvm695KFUCSF0w-2" target="JclzIWzvm695KFUCSF0w-10">
           <mxGeometry relative="1" as="geometry" />
@@ -166,6 +154,18 @@
               <mxPoint x="742" y="480" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="pH8SFVSykcNUc-93mGKD-2" value="二层交换机" style="shape=mxgraph.cisco.switches.layer_2_remote_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="218.5" y="370" width="101" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pH8SFVSykcNUc-93mGKD-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pH8SFVSykcNUc-93mGKD-2" target="JclzIWzvm695KFUCSF0w-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pH8SFVSykcNUc-93mGKD-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pH8SFVSykcNUc-93mGKD-2" target="JclzIWzvm695KFUCSF0w-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pH8SFVSykcNUc-93mGKD-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pH8SFVSykcNUc-93mGKD-2" target="JclzIWzvm695KFUCSF0w-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
