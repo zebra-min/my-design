@@ -224,6 +224,68 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="veRV1l_6fra9pxSBav4H-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=0;endArrow=none;dashed=1;dashPattern=1 1;" edge="1" parent="1" source="veRV1l_6fra9pxSBav4H-23" target="veRV1l_6fra9pxSBav4H-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="veRV1l_6fra9pxSBav4H-23" value="笔记本电脑" style="image;html=1;image=img/lib/clip_art/computers/Netbook_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="573" y="773" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="veRV1l_6fra9pxSBav4H-24" value="TMS&amp;nbsp;服务器" style="shape=mxgraph.cisco.servers.www_server;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="570" width="66" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="veRV1l_6fra9pxSBav4H-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="veRV1l_6fra9pxSBav4H-24" target="veRV1l_6fra9pxSBav4H-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="veRV1l_6fra9pxSBav4H-26" value="" style="shape=mxgraph.cisco.misc.stb;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="186" y="756" width="86" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="veRV1l_6fra9pxSBav4H-27" value="" style="shape=mxgraph.cisco.misc.stb;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="756" width="86" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="veRV1l_6fra9pxSBav4H-28" value="" style="shape=mxgraph.cisco.misc.stb;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="86" y="789" width="86" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="veRV1l_6fra9pxSBav4H-29" value="" style="shape=mxgraph.cisco.misc.stb;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="172" y="793" width="86" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="veRV1l_6fra9pxSBav4H-30" value="" style="shape=mxgraph.cisco.misc.stb;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="826" width="86" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="veRV1l_6fra9pxSBav4H-31" value="" style="shape=mxgraph.cisco.misc.stb;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="156" y="830" width="86" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="veRV1l_6fra9pxSBav4H-32" value="STB" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="112" y="863" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="veRV1l_6fra9pxSBav4H-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="veRV1l_6fra9pxSBav4H-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="574" y="811" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="veRV1l_6fra9pxSBav4H-38" value="网线" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="veRV1l_6fra9pxSBav4H-37">
+          <mxGeometry x="-0.1111" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="veRV1l_6fra9pxSBav4H-35" value="高性能WiFi路由器" style="shape=mxgraph.cisco.routers.wireless_router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="375" y="773" width="78" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="veRV1l_6fra9pxSBav4H-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="veRV1l_6fra9pxSBav4H-29" target="veRV1l_6fra9pxSBav4H-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="veRV1l_6fra9pxSBav4H-39" value="wifi" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="veRV1l_6fra9pxSBav4H-36">
+          <mxGeometry x="-0.1624" y="-2" relative="1" as="geometry">
+            <mxPoint y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="veRV1l_6fra9pxSBav4H-40" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.usb;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="692.8" y="803.8" width="50" height="18.4" as="geometry" />
+        </mxCell>
+        <mxCell id="veRV1l_6fra9pxSBav4H-42" value="5G上网卡" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="677.8" y="822.2" width="80" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
