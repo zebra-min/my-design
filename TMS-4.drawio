@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.16">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.2.9" pages="2">
   <diagram name="第 1 页" id="TFS3b3rrfouwaiExrDPL">
     <mxGraphModel dx="1426" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -102,6 +102,14 @@
         <mxCell id="KN5XP0ErrDVYvEGmghzp-17" value="TMS_Server：TMS后端服务。订单、SN的生成和管理&lt;div&gt;TMS_Burn：PC烧录客户端服务。生产线管理，及烧录状态记录&lt;/div&gt;&lt;div&gt;TAS_Sync：TAS数据同步服务。&lt;/div&gt;&lt;div&gt;TAS_Master：终端认证服务，主节点&lt;/div&gt;&lt;div&gt;TAS_Agent：终端认证服务，从节点&lt;/div&gt;&lt;div&gt;工厂烧录客户端：负责将SN发送给生产线上的STB&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="60" y="690" width="570" height="130" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Exg7gJIt-AYFAf2Wh3uH" name="基于工控机">
+    <mxGraphModel dx="1418" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
