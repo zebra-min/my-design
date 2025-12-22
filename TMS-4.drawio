@@ -130,6 +130,12 @@
         <mxCell id="nK5gJv2ZKwjX_ONpOvVr-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="TMS管理员" vertex="1">
           <mxGeometry height="470" width="76" x="400" y="120" as="geometry" />
         </mxCell>
+        <mxCell id="nK5gJv2ZKwjX_ONpOvVr-31" parent="nK5gJv2ZKwjX_ONpOvVr-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="25" width="10" x="33" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="nK5gJv2ZKwjX_ONpOvVr-32" parent="nK5gJv2ZKwjX_ONpOvVr-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="25" width="10" x="33" y="290" as="geometry" />
+        </mxCell>
         <mxCell id="nK5gJv2ZKwjX_ONpOvVr-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="TMS后台" vertex="1">
           <mxGeometry height="470" width="76" x="560" y="120" as="geometry" />
         </mxCell>
@@ -144,9 +150,9 @@
             <mxPoint x="35" y="220" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nK5gJv2ZKwjX_ONpOvVr-7" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;curved=0;rounded=0;" value="1、打开客户端">
+        <mxCell id="nK5gJv2ZKwjX_ONpOvVr-7" edge="1" parent="1" source="nK5gJv2ZKwjX_ONpOvVr-2" style="html=1;verticalAlign=bottom;startArrow=none;startFill=0;endArrow=open;startSize=6;endSize=8;curved=0;rounded=0;" value="1、打开客户端">
           <mxGeometry relative="1" width="80" as="geometry">
-            <mxPoint x="70" y="210" as="sourcePoint" />
+            <mxPoint x="80" y="210" as="sourcePoint" />
             <mxPoint x="217.5" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
