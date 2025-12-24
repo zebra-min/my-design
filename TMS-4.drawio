@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.2.9" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.2.9" pages="4">
   <diagram name="旧版TMS-TAS架构图" id="TFS3b3rrfouwaiExrDPL">
     <mxGraphModel dx="1418" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -286,6 +286,81 @@
         </mxCell>
         <mxCell id="QDnDRZd4eWX5OAUcK88J-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;rounded=0;fontColor=#ffffff;" value="正常终端认证流程" vertex="1">
           <mxGeometry height="23" width="210" x="240" y="660" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="wHL6cm-8bPBMzmm7XDhy" name="临时认证流程">
+    <mxGraphModel dx="1418" dy="746" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dTyicTiIGh7y1Nh0x4x0-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" value="APK" vertex="1">
+          <mxGeometry height="550" width="70" x="121" y="99" as="geometry" />
+        </mxCell>
+        <mxCell id="dTyicTiIGh7y1Nh0x4x0-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" value="TAS_Extra" vertex="1">
+          <mxGeometry height="550" width="70" x="381" y="99" as="geometry" />
+        </mxCell>
+        <mxCell id="dTyicTiIGh7y1Nh0x4x0-3" parent="dTyicTiIGh7y1Nh0x4x0-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontColor=#EA6B66;" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="30" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dTyicTiIGh7y1Nh0x4x0-4" parent="dTyicTiIGh7y1Nh0x4x0-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontColor=#EA6B66;" value="" vertex="1">
+          <mxGeometry height="46" width="10" x="30" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="dTyicTiIGh7y1Nh0x4x0-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" value="TAS&lt;div&gt;(Portald代理)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="550" width="100" x="616" y="99" as="geometry" />
+        </mxCell>
+        <mxCell id="dTyicTiIGh7y1Nh0x4x0-6" parent="dTyicTiIGh7y1Nh0x4x0-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontColor=#009900;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="45" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="dTyicTiIGh7y1Nh0x4x0-7" parent="dTyicTiIGh7y1Nh0x4x0-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontColor=#009900;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="45" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="dTyicTiIGh7y1Nh0x4x0-8" edge="1" parent="1" source="dTyicTiIGh7y1Nh0x4x0-1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontColor=#EA6B66;" target="dTyicTiIGh7y1Nh0x4x0-3" value="1、临时认证 【B29】">
+          <mxGeometry relative="1" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="301" y="194" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dTyicTiIGh7y1Nh0x4x0-9" edge="1" parent="1" source="dTyicTiIGh7y1Nh0x4x0-3" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;fontColor=#EA6B66;" target="dTyicTiIGh7y1Nh0x4x0-1" value="2、返回 version, code1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="301" y="264" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dTyicTiIGh7y1Nh0x4x0-10" edge="1" parent="1" source="dTyicTiIGh7y1Nh0x4x0-1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontColor=#009900;" target="dTyicTiIGh7y1Nh0x4x0-6" value="3、获取预认证码 [version, code1]">
+          <mxGeometry relative="1" x="-0.0311" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="551" y="314" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dTyicTiIGh7y1Nh0x4x0-11" edge="1" parent="1" source="dTyicTiIGh7y1Nh0x4x0-6" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;fontColor=#009900;" target="dTyicTiIGh7y1Nh0x4x0-1" value="4、返回&amp;nbsp;code2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="551" y="384" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dTyicTiIGh7y1Nh0x4x0-12" edge="1" parent="1" source="dTyicTiIGh7y1Nh0x4x0-1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontColor=#EA6B66;" target="dTyicTiIGh7y1Nh0x4x0-4" value="5、计算认证码 【code2】">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="301" y="434" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dTyicTiIGh7y1Nh0x4x0-13" edge="1" parent="1" source="dTyicTiIGh7y1Nh0x4x0-4" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;fontColor=#EA6B66;" target="dTyicTiIGh7y1Nh0x4x0-1" value="6、返回 code3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="301" y="504" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dTyicTiIGh7y1Nh0x4x0-14" edge="1" parent="1" source="dTyicTiIGh7y1Nh0x4x0-1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontColor=#009900;" target="dTyicTiIGh7y1Nh0x4x0-7" value="7、认证 【code3】">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="551" y="484" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dTyicTiIGh7y1Nh0x4x0-15" edge="1" parent="1" source="dTyicTiIGh7y1Nh0x4x0-7" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;fontColor=#009900;" target="dTyicTiIGh7y1Nh0x4x0-1" value="8、认证结果">
+          <mxGeometry relative="1" x="-0.001" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="551" y="554" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dTyicTiIGh7y1Nh0x4x0-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#006EAF;fillColor=#1ba1e2;align=center;verticalAlign=middle;rounded=0;fontColor=#ffffff;" value="临时终端认证流程" vertex="1">
+          <mxGeometry height="23" width="210" x="311" y="659" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
