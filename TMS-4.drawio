@@ -233,7 +233,7 @@
           <mxGeometry height="46" width="10" x="30" y="310" as="geometry" />
         </mxCell>
         <mxCell id="QDnDRZd4eWX5OAUcK88J-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" value="TAS&lt;div&gt;(Portald代理)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="550" width="100" x="520" y="100" as="geometry" />
+          <mxGeometry height="550" width="100" x="545" y="100" as="geometry" />
         </mxCell>
         <mxCell id="QDnDRZd4eWX5OAUcK88J-9" parent="QDnDRZd4eWX5OAUcK88J-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontColor=#009900;" value="" vertex="1">
           <mxGeometry height="50" width="10" x="45" y="190" as="geometry" />
